@@ -23,3 +23,24 @@ console.log(nombre);
 
 //* constante
 const numero = 78;
+
+// --------------------------------------
+// formas de declarar una variable 
+// camelcase
+let primerDatoValor = "froggy";
+
+// snakecase
+let nombre_apellido = "froggy sparda";
+
+
+
+// ---------------------------------
+// declaracion de variables multiples
+let variale;
+variale = 5;
+
+let numero1, 
+    numero2, 
+    numero3;
+    
+numero1= 87.654;
