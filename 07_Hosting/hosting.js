@@ -15,5 +15,5 @@ console.log(hola());
 
 function hola(){
     return("hola como estas");
-}
+};
 
