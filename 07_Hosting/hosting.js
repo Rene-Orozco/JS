@@ -9,8 +9,6 @@ const dato = "4335"; */
 
 
 // asi funcionan la funciones 
-
-
 console.log(hola());
 
 function hola(){
