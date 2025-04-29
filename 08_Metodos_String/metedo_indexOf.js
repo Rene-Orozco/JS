@@ -10,3 +10,4 @@ console.log(frase.indexOf("js", 21));
 // si no encuentra resultados
 console.log(frase.indexOf("amor"));
 
+
