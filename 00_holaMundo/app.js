@@ -1,13 +1,14 @@
-// esto es uncomentario de una linea
+// comentarios de una linea
 
 
 /* 
-esto es un comentario 
-de varias linea de codigo
+esto es un 
+comentario 
+multiple
+o de muchas 
+lineas
 */
 
-
-// metodo para imprimir en pantalla 
-console.log("Hola  mundo");
-
-
+// no lo ve el usuario o el cliente
+// depurar el codigo 
+console.log("Hola mundo... ");

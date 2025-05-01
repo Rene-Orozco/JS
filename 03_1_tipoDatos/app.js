@@ -16,33 +16,39 @@ indefinido (no les dieron un valor, se los dio el mismo sistema)
 nulos (los que les dio un valor nulo el programador)
  */
 
-// numerico
-let numero = 5;
-let numero2 = 5.5;
-console.log(typeof(numero));
-console.log(typeof(numero2));
+// numerico (Number)
+let numeroEntero = 5;
+console.log(numeroEntero);
+console.log(typeof(numeroEntero));
 
-
-// texto
-let cadena = "hola";
-let cadena2 = 'a';
+// cadena de texto (strings)
+let cadena = "457855sfdgsdf";
+console.log(cadena);
 console.log(typeof(cadena));
-console.log(typeof(cadena2));
-
-// verdadero o falso
-let decision = true;
-let decision2 = false;
-console.log(typeof(decision));
-console.log(typeof(decision2));
 
 
-// indefinido
-let valor;
-console.log(typeof(valor));
+// tipo booloeanos
+let opc = false;
+// let opc = true;
+console.log(opc);
+console.log(typeof(opc));
 
-// nulo
-let dato = null;
+
+// tipo indefinidos 
+let dato;
+console.log(dato);
 console.log(typeof(dato));
+
+
+// tipo nulo
+let vacio = null;
+console.log(vacio);
+console.log(typeof(vacio));
+
+
+
+
+
 
 
 // ejemplo de operadores de igualdad

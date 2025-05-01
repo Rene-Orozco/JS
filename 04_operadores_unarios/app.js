@@ -1,25 +1,21 @@
-// operadores unarios
-
+// operadores unarios o decremento he incremento
 let dato = 5;
-dato = dato + 1;
+dato++
+dato += 1
+dato--
+dato -= 1
+
+dato += 5
+dato -= 4
 
 console.log(dato);
 
-// dato unario en 1
-dato++;
-console.log(dato);
+// ------------------------
 
-// dato unario en -1
-dato--;
-console.log(dato);
+let valor = 10;
+valor++
 
-// quiero aumentar en un valor n
-dato += 4;
-console.log(dato);
-
-// quiero quitar en un valor n
-dato -= 7;
-console.log(dato);
-
+console.log(valor);// 11l 10b 
+console.log(valor);// 10b 10l 10c 
 
 

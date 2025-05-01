@@ -1,28 +1,33 @@
 // que js tiene 64 palabras reservadas
+
 // introducciona funciones clasicas 
 // sirven para reutilizar codigo
 
 
-// la forma clasica sin paramatros
-function saludar() {
-    
-    // para poder uzarla al 100%
-    return("hola");
+// funcion sin parametros y sin retorno
+function saludar(){
+    console.log("hola como estas..");
+    console.log("hola como estas..");
+    console.log("hola como estas..");
+    console.log("hola como estas..");
+    console.log("hola como estas..");
+    console.log("hola como estas..");
+    console.log("hola como estas..");
+    console.log("hola como estas..");
 }
-
 // llamarla
-console.log(saludar());
+saludar();
 
 
-// otro ejemplo
-function suma(){
+// funcion con retorno 
+function sumar(){
 
-    return(5 + 10);
+    let resultado = 5 + 10;
+    return(resultado)
 }
 
-console.log(suma());
-
-
+let resultado = sumar(); // guarda el valor
+console.log(resultado);
 
 
 

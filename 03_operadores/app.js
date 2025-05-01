@@ -3,15 +3,16 @@
 - resta
 * multiplicasion
 / division
-% modulo
+% modulo o resto 
 ** potencia 
 */
+
 
 // resto o modulo
 console.log(24 / 2);
 console.log(24 % 2);
 
-// potencia
+// potencia actual literal
 console.log(2 ** 2);
 
 
@@ -47,3 +48,6 @@ console.log(5 >= 10);
 console.log(!true);
 
 
+// ejemplos
+console.log( 5 == "5");
+console.log( 5 === "5");
