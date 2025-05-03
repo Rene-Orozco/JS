@@ -1,17 +1,16 @@
 function test(){
-    console.log(a); // 1 todos
+    console.log(a); 
 
-    console.log(foo()); // 2L, 2S, NaNC
+    console.log(foo()); 
     
     var a = 1;
     function foo(){
         return (2);
     }
 
-    console.log(a); // 1todos
+    console.log(a); 
 }
 
-
-// console.log(a); // undefineC, 2L
+console.log(a); 
 
 test();
