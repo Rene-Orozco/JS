@@ -1,13 +1,13 @@
 // scope, alcance de un contexto 
-let valor = 5;
+let valor = 8;
 
 
-function dato (){
-    let valor = 8
-    console.log(valor);
+function sumar(){
+    let valor = 45;
+    console.log(valor); //45
+
 }
 
-console.log(valor);
+console.log(valor); // 8
 
-
-dato();
+sumar();

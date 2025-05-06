@@ -4,35 +4,17 @@
 // sirven para reutilizar codigo
 
 
-// funcion sin parametros y sin retorno
-function saludar(){
-    console.log("hola como estas..");
-    console.log("hola como estas..");
-    console.log("hola como estas..");
-    console.log("hola como estas..");
-    console.log("hola como estas..");
-    console.log("hola como estas..");
-    console.log("hola como estas..");
-    console.log("hola como estas..");
-}
-// llamarla
-saludar();
+// creacion de funciones sin parametros y sin retornar 
 
 
-// funcion con retorno 
+// declaracion de una funcion 
 function sumar(){
-
-    let resultado = 5 + 10;
-    return(resultado)
+    // el cuerpo del codigo 
+    console.log(4 + 5);
 }
 
-let resultado = sumar(); // guarda el valor
-console.log(resultado);
-
-
-
-
-
+// llamar una funcion
+sumar();
 
 
 

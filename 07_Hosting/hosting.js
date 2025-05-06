@@ -1,17 +1,38 @@
-// hosting (subir)
+// hosting (subir)...
 
 console.log(a);
+
+//  cuanta con la mitad de los pribilegios 
 var a = 5;
+console.log(a);
 
 
-/* console.log(dato);
-const dato = "4335"; */
+
+// utilizar antes de crear la funcion
+sumar();
+
+// funciones clasicas 
+function sumar(){
+    console.log("estoy sumando");
+    
+}
 
 
-// asi funcionan la funciones 
-console.log(hola());
+// utilizar despues de crear la funcion
+sumar();
 
-function hola(){
-    return("hola como estas");
-};
 
+
+
+
+// inicio del codigo
+
+
+
+
+
+
+
+// final del codigo
+
+// apartado de funciones

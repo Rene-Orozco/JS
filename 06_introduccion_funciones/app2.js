@@ -1,22 +1,15 @@
-// funcion con parametros
+// funcion sin parametros pero retorna algo
 
-function sumar ( n1, n2 ){
-    let valor = n1 + n2;
-    return(valor);
+function resta(){
+
+    let resultado = 5 - 2;
+    return(resultado)
 }
 
-console.log(sumar(5 , 7));
-console.log(sumar(5 , 6));
-console.log(sumar(7 , 6));
-console.log(sumar(7 , 245));
-console.log(sumar(7 , 7834));
-
-
-
-
-
-
-
-
-
+// llamamos
+let respuesta = resta();
+console.log(respuesta);
+console.log(respuesta);
+console.log(respuesta);
+console.log(respuesta);
 

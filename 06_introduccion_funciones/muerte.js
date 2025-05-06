@@ -1,17 +1,9 @@
-// la muerte de la funcion
-function hola (valor){
-    // codigo
-    // codigo
-    // codigo
-    // codigo
-    // codigo
-    // codigo
-    // codigo
-    // codigo
-    // codigo
-    // return()
-}
+// la muerte de una funcion 
+// let valor = 5;
 
-hola();
+// function sumar () {
+//     return()
+    
+// }
 
-
+// let resultado = sumar();
