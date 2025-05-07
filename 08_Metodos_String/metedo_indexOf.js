@@ -1,13 +1,13 @@
 // metodo indexOf
 let frase = "estamos aprendiendo js y nada mas que js";
 
-// primer encuentro
+
+// busca desde la posicion 0 en adelante
 console.log(frase.indexOf("js"));
 
-// segundo encuentro dandole un segun argumento (numerico)
-console.log(frase.indexOf("js", 21));
-
-// si no encuentra resultados
-console.log(frase.indexOf("amor"));
+// busca desde la posicion 22 en adelante
+console.log(frase.indexOf("js", 22));
 
 
+// no encuentra nada
+console.log(frase.indexOf("odio", 22));

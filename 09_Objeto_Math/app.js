@@ -31,17 +31,17 @@ console.log(Math.abs(valor));
 
 // metodo potencia pow
 console.log(Math.pow(2, 2));
-console.log(2 ** 2);
+console.log(2 ** 3);
 
 // metodo sqrt
 console.log(Math.sqrt(9));
 
+
 // metodo ramdom (0.0 --- 0.99999999999)
 console.log(Math.random());
 console.log(Math.random() * 10);
+console.log(Math.trunc(Math.random() * 30));         
 
-// podemos aplicar varios metodos al mismo tiempo 
-console.log(Math.trunc(Math.random() * 10));
 
 
 

@@ -1,3 +1,5 @@
+// ultimo tema de JS bascio
+
 // parseo de datos, conversion de datos, refundicion de datos
 let valor =  "124.5";
 console.log(typeof(valor));

@@ -8,18 +8,14 @@ como dice o lo propone el lenguaje
 */
 
 // creacion de forma literal  
-let cadena = "esto es un cadena de texto";
-console.log(cadena);
-console.log(typeof(cadena));
+let cadena = "esto es un cadena de texto dfghytrDAFDFGH";
 
-// para acceder a los metodos (nomenclatura del .) dot notation
-
-// propiedad me rotarna la longitud en posiciones 1...
 console.log(cadena.length);
 
-// si yo accer a una posicicon 
-console.log(cadena[0]);
+console.log(cadena[25]);
+
 console.log(cadena[cadena.length - 1]);
+
 
 
 

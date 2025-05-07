@@ -9,3 +9,6 @@ console.log(cadena2.toUpperCase());
 cadena2 = cadena2.toUpperCase();
 
 console.log(cadena2);
+console.log(cadena2);
+console.log(cadena2);
+
