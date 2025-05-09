@@ -1,36 +1,37 @@
-// condicionales simples
+// JS nivel medio o intermedio
 
-/* 
+let dato = false;
 
-if (condicion){
-    ingresa si la condicion se cumple
+function esVerdad(dato) {
+    if (dato) {
+        console.log("es verdadero");
+    } else {
+        console.log("es falso");
+    }
 }
 
-*/
+esVerdad(dato);
 
-let valor = 8;
-if (valor == 5){
-    console.log("si es igual");
+// -----------------------------------
 
-} else {
-    console.log("no son iguales");
+let edad = 1000;
+
+if (edad >= 0) {
+
+    if (edad < 18) {
+        console.log("soy menor de edad");
     
-}
-
-// condiciones anidadas
-
-let edad = 50;
-
-if (edad >= 18){
-
-    if (edad < 50){
-        console.log(" es menor a 50 y mayor a 18");
+    } else if (edad <= 25) {
+        console.log("soy adolescente");
+    
+    } else if (edad <= 40) {
+        console.log("soy adulto");
+    
+    } else if (edad <= 100){
+        console.log("soy tercera edad..");
 
     } else {
-        console.log("no es menor a 50");
+        console.log("nadie vive tanto");
         
     }
-
-} else {
-    console.log("es menor a 18");
 }

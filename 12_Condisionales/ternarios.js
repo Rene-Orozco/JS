@@ -1,14 +1,14 @@
-let valor = 12;
+// condicional ternario
+let edad = 17;
 
-
-if (valor >= 18){
-    console.log(true);
+if (edad == 18){
+    console.log("es 18");
     
 } else {
-    console.log(false);
+    console.log("no es 18");
     
 }
 
-// condicion ternaria ES6 
-valor >= 18? console.log(true) : console.log(false);
 
+// aparecio ES6
+edad == 18? console.log("es 18") : console.log("no es 18")
